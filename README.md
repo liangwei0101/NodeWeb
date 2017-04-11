@@ -13,7 +13,7 @@ npm run dev
        db: 'liangwei',
        host: 'localhost',
        port: 27017
-修改连接数据库连接后再启动该项目
+，修改连接数据库连接后再启动该项目
 
 # 模块
 1.用户登入模快，使用的是nodejs-aes256加密
