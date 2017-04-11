@@ -8,7 +8,7 @@ npm i
 npm run dev
 
 # 说明
-此项目为VueWeb的后端代码，采用Retful风格的API作为交互，为前端提供数据。后端数据库为MongoDB，连接端口为默认端口27017。运行次代码时要先行开启数据库服务，数据库配置项在root/Settings.js中：
+此项目为VueWeb的后端代码，采用Retful风格的API作为交互，为前端提供数据。后端数据库为MongoDB，运行次代码时要先行开启数据库服务，数据库配置项在root/Settings.js中：
 例如： cookieSecret: 'MyWeb',
        db: 'liangwei',
        host: 'localhost',
