@@ -6,7 +6,7 @@ var router = express.Router();
 var Email = require('../../../models/email');
 
 /* GET users listing. */
-router.get('/', function(req, res, next) {
+router.get('/get', function(req, res, next) {
     console.log('我是邮件get请求！')
     var newEmail = new Email({
         regSubject: "username:您好！您已成为注册超网的用户！",
@@ -22,17 +22,23 @@ router.get('/', function(req, res, next) {
             if(Email.length === 0)
             {
                 console.log('我是为空的情况')
+                newEmail.save(function (err,doc) {
+                    if(err) {
+                        console.log(err)
+                    }
+                })
                 res.json(newEmail)
             }else {
-                console.log(Email)
-                res.json(Email[0]);
+                //console.log(Email)
+                res.json(Email);
             }
 
         }
     });
 });
-router.post('/', function(req, res, next) {
+router.post('/save', function(req, res, next) {
     console.log('我是post修改请求！')
+    console.log(req.body)
     var updateEmail = new Email({
         regSubject: req.body.regSubject,
         regText: req.body.regText,
@@ -45,8 +51,7 @@ router.post('/', function(req, res, next) {
                     if (err) {
                         console.log(err);
                     }else {
-
-                        res.json(updateEmail)
+                        res.json('200')
                     }
                 });
 });

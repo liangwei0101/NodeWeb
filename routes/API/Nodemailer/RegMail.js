@@ -27,31 +27,26 @@ router.get('/:userid', function(req, res, next) {
         emailNumber: "",
         emailPasswd: ""
     });
-    newUser.getOne(req.params.userid,function (err, user){
+    newUser.getByUserid(req.params.userid,function (err, user){
         if (err) {
             console.log(err);
-            console.log('---------------++++-----------')
-            console.log(newUser.name)
-            console.log('-------------------++++-------')
         }
         else{
-            newUser = user[0];
-            console.log('--------------------------')
-            console.log(newUser.name)
-            console.log('--------------------------')
+            newUser = user;
             newEmail.getAll(function (err, Email){
                 if (err) {
                     console.log(err);
                 }
                 else{
+                    console.log(newUser)
                     if(Email.length === 0)
                     {
                         console.log('我是为空的情况')
                     }else {
-                        newEmail=Email[0];
-                        newEmail.regSubject=newEmail.regSubject.replace(/username/,newUser.name)
-                        newEmail.regText=newEmail.regText.replace(/username/,newUser.name)
-                        //-------------------------------------------------------------------------------------警报邮件邮件发送
+                        newEmail=Email;
+                        newEmail.regSubject=newEmail.regSubject.replace(/username/,newUser[0].name)
+                        newEmail.regText=newEmail.regText.replace(/username/,newUser[0].name)
+                        //-------------------------------------------------------------------------------------注册邮件邮件发送
                         var transporter = nodemailer.createTransport({
                             service: 'qq',
                             auth: {
@@ -61,7 +56,7 @@ router.get('/:userid', function(req, res, next) {
                         });
                         var mailOptions = {
                             from: newEmail.emailNumber, // 发送者
-                            to: '1449681915@qq.com', // 接受者,可以同时发送多个,以逗号隔开
+                            to: newUser[0].email, // 接受者,可以同时发送多个,以逗号隔开
                             subject: newEmail.regSubject , // 标题
                             text: newEmail.regText , // plaintext body
                             //html: '<b>网页内容 ✔</b>' // html body

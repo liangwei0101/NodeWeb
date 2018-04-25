@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://E:/Vue.js/web/index.html" description="&lt;!--    &lt;script type=&quot;text/javascript&quot; src=&quot;static..." line="38" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e575589e-651b-4190-9578-da217f4f9477" name="默认的" comment="" />
+    <list default="true" id="8d0ef05f-4b35-4e49-bf22-efec39f95806" name="默认的" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,22 +15,57 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="graduation_project" />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="userInfo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/API/userInfo/userInfo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2214">
+              <caret line="217" column="17" lean-forward="false" selection-start-line="217" selection-start-column="17" selection-end-line="217" selection-end-column="17" />
+              <folding>
+                <element signature="e#249#2589#0" expanded="false" />
+                <element signature="e#3372#3636#0" expanded="false" />
+                <element signature="e#4059#5050#0" expanded="false" />
+                <element signature="e#5990#6330#0" expanded="false" />
+                <element signature="e#6381#7315#0" expanded="false" />
+                <element signature="e#7366#7743#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="car.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/API/carInfo/car.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegMail.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/API/Nodemailer/RegMail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1404">
+              <caret line="52" column="29" lean-forward="false" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Login.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/API/Login/Login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="594">
+              <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
               <folding>
-                <element signature="e#0#37#0" expanded="false" />
+                <element signature="e#430#506#0" expanded="false" />
+                <element signature="e#868#1402#0" expanded="false" />
+                <element signature="e#1428#1502#0" expanded="false" />
+                <element signature="n#!!block;n#loginActivity#0" expanded="false" />
+                <element signature="e#2578#2705#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -36,58 +74,59 @@
       <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="61" column="5" lean-forward="false" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+            <state relative-caret-position="81">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding>
                 <element signature="n#!!block;n#User#0" expanded="false" />
-                <element signature="e#756#1633#0" expanded="false" />
-                <element signature="e#1699#2663#0" expanded="false" />
-                <element signature="e#2716#3439#0" expanded="false" />
-                <element signature="e#3490#4895#0" expanded="false" />
-                <element signature="e#4958#5695#0" expanded="false" />
+                <element signature="e#380#927#0" expanded="false" />
+                <element signature="e#997#1251#0" expanded="false" />
+                <element signature="e#1306#1559#0" expanded="false" />
+                <element signature="e#1612#1889#0" expanded="false" />
+                <element signature="e#1940#2746#0" expanded="false" />
+                <element signature="e#2808#3099#0" expanded="false" />
+                <element signature="e#3166#3957#0" expanded="false" />
+                <element signature="e#4020#4275#0" expanded="false" />
+                <element signature="e#4337#4589#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workText.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/API/workText/workText.js">
+      <file leaf-file-name="radioactive.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/radioactive.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-              <folding>
-                <element signature="e#222#484#0" expanded="false" />
-                <element signature="e#535#853#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/db.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="3591">
+              <caret line="133" column="43" lean-forward="false" selection-start-line="133" selection-start-column="43" selection-end-line="133" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="email.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/email.js">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1836">
-              <caret line="68" column="20" lean-forward="false" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+            <state relative-caret-position="405">
+              <caret line="87" column="3" lean-forward="false" selection-start-line="87" selection-start-column="3" selection-end-line="87" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workText.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/workText.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userUpload.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/API/upload/userUpload.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,53 +143,61 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>login</find>
-      <find>login-container</find>
-      <find>newUser</find>
-      <find>12112</find>
-      <find>tempUserid</find>
+      <find>done</find>
+      <find>1111111111111111111111111111111111</find>
+      <find>callback</find>
+      <find>user</find>
+      <find>userType</find>
+      <find>Features</find>
+      <find>NEW</find>
+      <find>car</find>
     </findStrings>
+    <replaceStrings>
+      <replace>callback</replace>
+      <replace>activity</replace>
+    </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/ng_js/app.js" />
-        <option value="$PROJECT_DIR$/public/views/pages-login.html" />
-        <option value="$PROJECT_DIR$/public/views/home.html" />
-        <option value="$PROJECT_DIR$/public/css/theme-default.css" />
-        <option value="$PROJECT_DIR$/public/views/login.html" />
-        <option value="$PROJECT_DIR$/public/ng_js/controllers/loginCtrl.js" />
-        <option value="$PROJECT_DIR$/public/ng_js/appRoutes.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/routes/login.js" />
-        <option value="$PROJECT_DIR$/routes/user.js" />
-        <option value="$PROJECT_DIR$/routes/users.js" />
-        <option value="$PROJECT_DIR$/routes/API/userInfo/freeze.js" />
-        <option value="$PROJECT_DIR$/routes/API/userInfo/deleteUser.js" />
-        <option value="$PROJECT_DIR$/models/emailStyle.js" />
-        <option value="$PROJECT_DIR$/models/Nodemailer.js" />
-        <option value="$PROJECT_DIR$/models/sendMail.js" />
-        <option value="$PROJECT_DIR$/routes/API/Nodemailer/sendMail.js" />
-        <option value="$PROJECT_DIR$/models/email.js" />
-        <option value="$PROJECT_DIR$/routes/API/Nodemailer/alarmMail.js" />
-        <option value="$PROJECT_DIR$/routes/API/emailStyle/emailStyle.js" />
-        <option value="$PROJECT_DIR$/routes/API/userInfo/freezeUser.js" />
-        <option value="$PROJECT_DIR$/routes/API/workText/delWorkText.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/models/db.js" />
+        <option value="$PROJECT_DIR$/routes/API/carInfo/selectCar.js" />
+        <option value="$PROJECT_DIR$/routes/API/Radioactive/selectRadioactive.js" />
         <option value="$PROJECT_DIR$/routes/API/workText/deleteWorkText.js" />
-        <option value="$PROJECT_DIR$/routes/API/Nodemailer/RegMail.js" />
-        <option value="$PROJECT_DIR$/routes/API/userInfo/updateUser.js" />
-        <option value="$PROJECT_DIR$/routes/api.js" />
-        <option value="$PROJECT_DIR$/routes/API/Login/login.js" />
-        <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/models/user.js" />
-        <option value="$PROJECT_DIR$/routes/API/Login/Login.js" />
-        <option value="$PROJECT_DIR$/models/workText.js" />
+        <option value="$PROJECT_DIR$/routes/API/workText/selectWorkText.js" />
+        <option value="$PROJECT_DIR$/routes/API/userInfo/freezeUser.js" />
+        <option value="$PROJECT_DIR$/routes/API/carInfo/car.js" />
+        <option value="$PROJECT_DIR$/routes/API/emailStyle/emailStyle.js" />
+        <option value="$PROJECT_DIR$/models/email.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/routes/API/upload/upload.js" />
+        <option value="$PROJECT_DIR$/models/car.js" />
+        <option value="$PROJECT_DIR$/routes/API/TransportTask/transportTask.js" />
+        <option value="$PROJECT_DIR$/models/transportTask.js" />
+        <option value="$PROJECT_DIR$/routes/API/Radioactive/radioactive.js" />
+        <option value="$PROJECT_DIR$/models/radioactive.js" />
         <option value="$PROJECT_DIR$/routes/API/workText/workText.js" />
+        <option value="$PROJECT_DIR$/models/workText.js" />
+        <option value="$USER_HOME$/Desktop/joli/ui-widgets.html" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/models/activity.js" />
+        <option value="$PROJECT_DIR$/routes/API/Login/Login.js" />
+        <option value="$USER_HOME$/Desktop/joli/css/theme-default.css" />
+        <option value="$PROJECT_DIR$/routes/API/Nodemailer/RegMail.js" />
+        <option value="$PROJECT_DIR$/routes/API/welcome/welcome.js" />
+        <option value="$PROJECT_DIR$/routes/API/Nodemailer/alarmMail.js" />
+        <option value="$PROJECT_DIR$/models/user.js" />
+        <option value="$PROJECT_DIR$/routes/test.js" />
+        <option value="$PROJECT_DIR$/routes/API/upload/userUpload.js" />
+        <option value="$PROJECT_DIR$/routes/API/userInfo/userInfo.js" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -161,7 +208,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="1938" />
+    <option name="width" value="1924" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
@@ -179,8 +226,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -224,28 +269,6 @@
               <option name="myItemId" value="API" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workText" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graduation_project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graduation_project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -263,32 +286,23 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="6.9.4" />
+    <property name="javascript.nodejs.core.library.configured.version" value="7.9.0" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="js.eslint.eslintPackage" value="" />
-    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/joli" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="last_opened_file_path" value="E:/Vue.js/web" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Node.JS\graduation_project\public" />
-      <recent name="E:\Node.JS\graduation_project\public\static" />
-      <recent name="E:\Node.JS\graduation_project\public\libs\js" />
-      <recent name="E:\Node.JS\graduation_project\public\images" />
-      <recent name="E:\Node.JS\graduation_project\public\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Node.JS\graduation_project\routes\API\Nodemailer" />
-      <recent name="E:\Node.JS\graduation_project\routes\API" />
-      <recent name="E:\Node.JS\graduation_project\routes\API\userInfo" />
-      <recent name="E:\Node.JS\graduation_project\routes" />
-      <recent name="E:\Node.JS\graduation_project\public\views" />
+      <recent name="E:\Node.JS\graduation_project\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Node.JS\graduation_project\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -382,85 +396,108 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e575589e-651b-4190-9578-da217f4f9477" name="默认的" comment="" />
-      <created>1488948348832</created>
+      <changelist id="8d0ef05f-4b35-4e49-bf22-efec39f95806" name="默认的" comment="" />
+      <created>1493105962136</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1488948348832</updated>
-      <workItem from="1488948350291" duration="11542000" />
-      <workItem from="1489038736367" duration="1098000" />
-      <workItem from="1489488687604" duration="7265000" />
-      <workItem from="1489502388771" duration="606000" />
-      <workItem from="1489547715111" duration="10106000" />
-      <workItem from="1489569355154" duration="16000" />
-      <workItem from="1489646784507" duration="3793000" />
-      <workItem from="1489670509750" duration="234000" />
-      <workItem from="1489736891064" duration="1650000" />
-      <workItem from="1489893821144" duration="189000" />
-      <workItem from="1489894411280" duration="1393000" />
-      <workItem from="1489898880907" duration="1993000" />
-      <workItem from="1489985555894" duration="518000" />
-      <workItem from="1489987437354" duration="1682000" />
-      <workItem from="1489994681006" duration="16737000" />
-      <workItem from="1490096843135" duration="2405000" />
-      <workItem from="1490107419308" duration="710000" />
-      <workItem from="1490149042331" duration="599000" />
-      <workItem from="1490150201900" duration="28582000" />
-      <workItem from="1490228742666" duration="16618000" />
-      <workItem from="1490316968444" duration="28612000" />
-      <workItem from="1490404374763" duration="14236000" />
-      <workItem from="1490598773397" duration="7909000" />
-      <workItem from="1491026626011" duration="6364000" />
-      <workItem from="1491094674871" duration="29615000" />
-      <workItem from="1491193962056" duration="599000" />
-      <workItem from="1491227259932" duration="2506000" />
-      <workItem from="1491308360240" duration="1523000" />
-      <workItem from="1491349824534" duration="1855000" />
-      <workItem from="1491365773559" duration="23519000" />
-      <workItem from="1491440327187" duration="7427000" />
-      <workItem from="1491484764042" duration="2145000" />
-      <workItem from="1491525779816" duration="4766000" />
-      <workItem from="1491552747799" duration="4868000" />
-      <workItem from="1491566378430" duration="6089000" />
-      <workItem from="1491610968505" duration="6997000" />
+      <updated>1493105962136</updated>
+      <workItem from="1493105977948" duration="22330000" />
+      <workItem from="1493175993883" duration="36633000" />
+      <workItem from="1493279613866" duration="13128000" />
+      <workItem from="1493370157090" duration="17918000" />
+      <workItem from="1493395804378" duration="2846000" />
+      <workItem from="1493431525316" duration="1956000" />
+      <workItem from="1493563690263" duration="7053000" />
+      <workItem from="1493693744825" duration="26741000" />
+      <workItem from="1493773003192" duration="34500000" />
+      <workItem from="1493903027818" duration="428000" />
+      <workItem from="1493903714436" duration="664000" />
+      <workItem from="1493906523257" duration="1032000" />
+      <workItem from="1493944867417" duration="5333000" />
+      <workItem from="1493983870199" duration="598000" />
+      <workItem from="1493991386171" duration="634000" />
+      <workItem from="1493998148759" duration="1201000" />
+      <workItem from="1494036678956" duration="5156000" />
+      <workItem from="1494053101228" duration="1368000" />
+      <workItem from="1494066604720" duration="1344000" />
+      <workItem from="1494123885690" duration="1671000" />
+      <workItem from="1494133011070" duration="330000" />
+      <workItem from="1494133377738" duration="1932000" />
+      <workItem from="1494138346816" duration="6500000" />
+      <workItem from="1494211135073" duration="2005000" />
+      <workItem from="1494290889952" duration="9544000" />
+      <workItem from="1494381241493" duration="8047000" />
+      <workItem from="1494421213690" duration="9372000" />
+      <workItem from="1494465559944" duration="8717000" />
+      <workItem from="1494489911731" duration="5963000" />
+      <workItem from="1494548262423" duration="34306000" />
+      <workItem from="1494604177787" duration="97000" />
+      <workItem from="1494655908412" duration="609000" />
+      <workItem from="1494668599891" duration="4477000" />
+      <workItem from="1494690546031" duration="1374000" />
+      <workItem from="1494727338940" duration="729000" />
+      <workItem from="1494754137266" duration="1776000" />
+      <workItem from="1494836661034" duration="604000" />
+      <workItem from="1495514214294" duration="2810000" />
+      <workItem from="1495588457553" duration="4545000" />
+      <workItem from="1495611916051" duration="605000" />
+      <workItem from="1495627914146" duration="639000" />
+      <workItem from="1495690520809" duration="1103000" />
+      <workItem from="1495701972330" duration="1204000" />
+      <workItem from="1495780359442" duration="1385000" />
+      <workItem from="1495849661100" duration="573000" />
+      <workItem from="1495850244317" duration="3252000" />
+      <workItem from="1495882146965" duration="95000" />
+      <workItem from="1495930563901" duration="9463000" />
+      <workItem from="1495950652709" duration="1334000" />
+      <workItem from="1495959518996" duration="622000" />
+      <workItem from="1495965392004" duration="1246000" />
+      <workItem from="1496020267671" duration="22115000" />
+      <workItem from="1496047869212" duration="13331000" />
+      <workItem from="1496107943725" duration="5611000" />
+      <workItem from="1496192384927" duration="1038000" />
+      <workItem from="1496193695374" duration="8949000" />
+      <workItem from="1496231672965" duration="612000" />
+      <workItem from="1496235199614" duration="2120000" />
+      <workItem from="1496278056680" duration="7117000" />
+      <workItem from="1496305276595" duration="2010000" />
+      <workItem from="1496323981101" duration="731000" />
+      <workItem from="1496364471307" duration="608000" />
+      <workItem from="1496367125409" duration="705000" />
+      <workItem from="1496393171508" duration="29000" />
+      <workItem from="1496393208956" duration="6971000" />
+      <workItem from="1496452568013" duration="11835000" />
+      <workItem from="1496533870009" duration="1831000" />
+      <workItem from="1496546737984" duration="181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256766000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="393586000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1924" height="1048" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22832981" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22257721" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44394112" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27066818" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,209 +508,308 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="29" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bower.json">
+    <entry file="file://$PROJECT_DIR$/models/workText.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1404">
+          <caret line="52" column="50" lean-forward="false" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/home.html" />
-    <entry file="file://$PROJECT_DIR$/public/views/pages-login.html" />
-    <entry file="file://$PROJECT_DIR$/public/ng_js/controllers/MainCtrl.js" />
-    <entry file="file://$PROJECT_DIR$/public/ng_js/controllers/GeekCtrl.js" />
-    <entry file="file://$PROJECT_DIR$/public/ng_js/controllers/NerdCtrl.js" />
-    <entry file="file://$PROJECT_DIR$/public/ng_js/controllers/loginCtrl.js" />
-    <entry file="file://$PROJECT_DIR$/public/views/login.html" />
-    <entry file="file://$PROJECT_DIR$/public/static/js/app.fedc7df36f3400832ca2.js" />
-    <entry file="file://$PROJECT_DIR$/Settings.js">
+    <entry file="file://$PROJECT_DIR$/routes/API/userInfo/freezeUser.js" />
+    <entry file="file://$PROJECT_DIR$/routes/API/userInfo/userInfo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="2187">
+          <caret line="81" column="49" lean-forward="false" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ng_js/appRoutes.js" />
-    <entry file="file://$PROJECT_DIR$/public/ng_js/app.js" />
-    <entry file="file://$PROJECT_DIR$/public/static/js/app.2fd4a3e312772320296a.js" />
-    <entry file="file://$PROJECT_DIR$/public/static/static/js/app.d034762ec5b629d29122.js" />
-    <entry file="file://$PROJECT_DIR$/public/static/js/app.3660323a8a415dd47248.js" />
-    <entry file="file://$PROJECT_DIR$/public/static/js/app.def9f6608b95acfe9ed8.js" />
-    <entry file="file://$PROJECT_DIR$/public/static/js/app.1f7bb683bb7d167ca493.js" />
-    <entry file="file://$PROJECT_DIR$/public/static/js/app.9fca321dd77eaf26e720.js" />
-    <entry file="file://$PROJECT_DIR$/public/static/js/app.4872723c239db46e80ec.js" />
-    <entry file="file://$PROJECT_DIR$/public/static/js/app.e20e5db9688d93fd6d62.js" />
-    <entry file="file://$PROJECT_DIR$/public/static/js/app.5514844a00bd98d920c5.js" />
-    <entry file="file://$PROJECT_DIR$/public/static/js/app.b7cac9074ccd1860425a.js" />
-    <entry file="file://$PROJECT_DIR$/public/static/static/js/app.0980f8760d9e255b0dfd.js" />
-    <entry file="file://$PROJECT_DIR$/public/static/js/app.0980f8760d9e255b0dfd.js" />
-    <entry file="file://$PROJECT_DIR$/public/static/static/js/faq.js" />
-    <entry file="file://$PROJECT_DIR$/public/static/js/faq.js">
+    <entry file="file://$PROJECT_DIR$/routes/login.js" />
+    <entry file="file://$PROJECT_DIR$/routes/users.js" />
+    <entry file="file://$PROJECT_DIR$/routes/API/userInfo/deleteUser.js" />
+    <entry file="file://$PROJECT_DIR$/routes/API/userInfo/freezeUser.js" />
+    <entry file="file://$PROJECT_DIR$/routes/API/carInfo/deleteCar.js" />
+    <entry file="file://$PROJECT_DIR$/routes/API/carInfo/selectCar.js" />
+    <entry file="file://$PROJECT_DIR$/routes/API/Radioactive/deleteRadioactive.js" />
+    <entry file="file://$PROJECT_DIR$/routes/API/Radioactive/selectRadioactive.js" />
+    <entry file="file://$PROJECT_DIR$/routes/API/TransportTask/deledeTransportTask.js" />
+    <entry file="file://$PROJECT_DIR$/routes/API/workText/deleteWorkText.js" />
+    <entry file="file://$PROJECT_DIR$/routes/API/workText/selectWorkText.js" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/7.9.0/core-modules/module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="191">
+          <caret line="469" column="14" lean-forward="false" selection-start-line="469" selection-start-column="14" selection-end-line="469" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html" />
-    <entry file="file://$PROJECT_DIR$/routes/user.js" />
-    <entry file="file://$PROJECT_DIR$/routes/API/Nodemailer/Nodemailer.js" />
-    <entry file="file://$PROJECT_DIR$/models/Nodemailer.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/db.js">
+    <entry file="file://$PROJECT_DIR$/public/uploads/images/img.png" />
+    <entry file="file://$PROJECT_DIR$/public/uploads/images/img.jpg" />
+    <entry file="file://$USER_HOME$/Desktop/joli/form-file-handling.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="248" column="43" lean-forward="false" selection-start-line="248" selection-start-column="43" selection-end-line="248" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/connection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="318" column="21" lean-forward="false" selection-start-line="318" selection-start-column="21" selection-end-line="318" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/API/Nodemailer/alarmMail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1134">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/API/workText/deleteWorkText.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/API/Nodemailer/RegMail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/API/userInfo/updateUser.vue" />
-    <entry file="file://$PROJECT_DIR$/routes/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/API/userInfo/freezeUser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/API/userInfo/deleteUser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/API/userInfo/updateUser.js" />
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/API/emailStyle/emailStyle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-702">
+          <caret line="394" column="84" lean-forward="false" selection-start-line="394" selection-start-column="53" selection-end-line="394" selection-end-column="84" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/email.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="68" column="20" lean-forward="false" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="359">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/API/Login/Login.js">
+    <entry file="file://$PROJECT_DIR$/views/pages-error-404-2.html" />
+    <entry file="file://$PROJECT_DIR$/routes/API/emailStyle/emailStyle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1295">
+          <caret line="49" column="23" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/API/TransportTask/transportTask.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/transportTask.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="74" column="2" lean-forward="true" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/joli/ui-elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3065">
+          <caret line="539" column="99" lean-forward="false" selection-start-line="539" selection-start-column="94" selection-end-line="539" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/joli/ui-widgets.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="532" column="0" lean-forward="false" selection-start-line="532" selection-start-column="0" selection-end-line="532" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/API/Radioactive/radioactive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/car.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="61" column="5" lean-forward="false" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!block;n#User#0" expanded="false" />
-            <element signature="e#756#1633#0" expanded="false" />
-            <element signature="e#1699#2663#0" expanded="false" />
-            <element signature="e#2716#3439#0" expanded="false" />
-            <element signature="e#3490#4895#0" expanded="false" />
-            <element signature="e#4958#5695#0" expanded="false" />
-          </folding>
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="55" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/workText.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="521">
+          <caret line="77" column="29" lean-forward="false" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/API/workText/workText.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="513">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="875" column="0" lean-forward="false" selection-start-line="875" selection-start-column="0" selection-end-line="875" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb-core/lib/error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/activity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="64" column="38" lean-forward="false" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/joli/css/theme-default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-connection/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="556" column="18" lean-forward="false" selection-start-line="556" selection-start-column="18" selection-end-line="556" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/API/welcome/welcome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="123" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/API/Nodemailer/alarmMail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="55" column="36" lean-forward="false" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/radioactive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3591">
+          <caret line="133" column="43" lean-forward="false" selection-start-line="133" selection-start-column="43" selection-end-line="133" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
-            <element signature="e#222#484#0" expanded="false" />
-            <element signature="e#535#853#0" expanded="false" />
+            <element signature="n#!!block;n#User#0" expanded="false" />
+            <element signature="e#380#927#0" expanded="false" />
+            <element signature="e#997#1251#0" expanded="false" />
+            <element signature="e#1306#1559#0" expanded="false" />
+            <element signature="e#1612#1889#0" expanded="false" />
+            <element signature="e#1940#2746#0" expanded="false" />
+            <element signature="e#2808#3099#0" expanded="false" />
+            <element signature="e#3166#3957#0" expanded="false" />
+            <element signature="e#4020#4275#0" expanded="false" />
+            <element signature="e#4337#4589#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/API/Login/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+          <folding>
+            <element signature="e#430#506#0" expanded="false" />
+            <element signature="e#868#1402#0" expanded="false" />
+            <element signature="e#1428#1502#0" expanded="false" />
+            <element signature="n#!!block;n#loginActivity#0" expanded="false" />
+            <element signature="e#2578#2705#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/API/Nodemailer/RegMail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="52" column="29" lean-forward="false" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/js/app.20eb4785ac2b904a604c.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5832">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/API/upload/userUpload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/API/carInfo/car.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/API/userInfo/userInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2214">
+          <caret line="217" column="17" lean-forward="false" selection-start-line="217" selection-start-column="17" selection-end-line="217" selection-end-column="17" />
+          <folding>
+            <element signature="e#249#2589#0" expanded="false" />
+            <element signature="e#3372#3636#0" expanded="false" />
+            <element signature="e#4059#5050#0" expanded="false" />
+            <element signature="e#5990#6330#0" expanded="false" />
+            <element signature="e#6381#7315#0" expanded="false" />
+            <element signature="e#7366#7743#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="87" column="3" lean-forward="false" selection-start-line="87" selection-start-column="3" selection-end-line="87" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>

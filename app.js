@@ -4,33 +4,60 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var mongodb = require('mongodb');
+var async = require("async");
 
-//var MongoStore = require('connect-mongo');
-//采用connect-mongodb中间件作为Session存储
-var session = require('express-session');
-var MongoStore = require('connect-mongo')(session);
-var flash = require('connect-flash');
-var crypto = require('crypto')
-var settings = require('./Settings');
+var db = require('./models/db')
+
+//  --数据库连接池的运用(减少连接数量,只有一个实例保存)
+/*var MongoClient = require('mongodb').MongoClient;
+var db;
+async.auto({
+    connectDB: function (callback) {
+        MongoClient.connect("mongodb://localhost:27017/liangwei", function(err, database) {
+            if(err) throw err;
+            db = database;
+            console.log("数据库已连接");
+            callback(null,db)
+        });
+    },
+    exportDB: ['connectDB', function(callback) {
+        module.exports = db
+        console.log(db);
+    }]
+}, function(err, results) {
+    console.log(results);
+});*/
+db.connect('mongodb://localhost:27017/liangwei', function(err) {
+    if (err) {
+        console.log('Unable to connect to Mongo.')
+        process.exit(1)
+    } else {
+        app.listen(27017, function() {
+            console.log('>>Listening on port database...')
+        })
+    }
+})
+//  --数据库连接池的运用
 
 var index = require('./routes/index');
-var login = require('./routes/login');
-var api = require('./routes/api');
-var deleteWorkText = require('./routes/API/workText/deleteWorkText');
-var deleteUser = require('./routes/API/userInfo/deleteUser');
-var freezeUser =  require('./routes/API/userInfo/freezeUser');
+var userInfo = require('./routes/API/userInfo/userInfo')
 var emailStyle = require('./routes/API/emailStyle/emailStyle');
 var alarmMail = require('./routes/API/Nodemailer/alarmMail');
 var regMail = require('./routes/API/Nodemailer/RegMail');
 var workText = require('./routes/API/workText/workText');
 var Login = require('./routes/API/Login/Login');
-//var users = require('./routes/users')
+var radioactive = require('./routes/API/Radioactive/radioactive');
+var transportTask = require('./routes/API/TransportTask/transportTask');
+var car = require('./routes/API/carInfo/car');
+var userUpload = require('./routes/API/upload/userUpload');
+var welcome = require('./routes/API/welcome/welcome');
 
 var app = express();
 
 // view engine setup
-/*app.engine('html', require('ejs').__express);
-app.set('view engine', 'html');*/
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'jade');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
@@ -40,48 +67,35 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// session 中间件
-app.use(session({
-    secret: settings.cookieSecret,
-    key: settings.db,//cookie name
-    cookie: {maxAge: 1000 * 60 * 60 * 24 * 1},//30 days
-    store: new MongoStore({
-      /*    db: settings.db,
-       host: settings.host,
-       port: settings.port,*/
-        url:'mongodb://localhost/' + settings.db,
-        autoRemove:'native'
-    })
-}));
-
+app.use('/welcome',welcome)
+app.use('/userUpload',userUpload)
+app.use('/car',car);
+app.use('/transportTask',transportTask);
+app.use('/radioactive',radioactive);
 app.use('/Login',Login);
-app.use('/deleteWorkText',deleteWorkText)
 app.use('/workText',workText);
 app.use('/regMail',regMail);
 app.use('/alarmMail',alarmMail);
-app.use('/freezeUser',freezeUser);
-app.use('/deleteUser',deleteUser)
+app.use('/userInfo',userInfo);
 app.use('/emailStyle',emailStyle);
-app.use('/api',api);
 app.use('/', index);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
-  console.log(req)
   err.status = 404;
   next(err);
 });
 
-/*// error handler
+// error handler
 app.use(function(err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
-  res.locals.error = req.app.getOne('env') === 'development' ? err : {};
+  res.locals.error = req.app.get('env') === 'development' ? err : {};
 
   // render the error page
   res.status(err.status || 500);
   res.render('error');
-});*/
+});
 
 module.exports = app;
